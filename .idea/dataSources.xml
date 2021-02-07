@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
+    <data-source source="LOCAL" name="animalrescuedb@cis175.cad2fmvb4ptt.us-east-1.rds.amazonaws.com" uuid="0d0c1b1e-c226-463e-baaf-8384b2127ff7">
+      <driver-ref>mysql.8</driver-ref>
+      <synchronize>true</synchronize>
+      <jdbc-driver>com.mysql.cj.jdbc.Driver</jdbc-driver>
+      <jdbc-url>jdbc:mysql://cis175.cad2fmvb4ptt.us-east-1.rds.amazonaws.com:3306/animalrescuedb</jdbc-url>
+      <working-dir>$ProjectFileDir$</working-dir>
+    </data-source>
+  </component>
+</project>
