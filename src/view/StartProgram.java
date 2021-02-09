@@ -12,7 +12,7 @@ public class StartProgram {
     static AnimalRescueHelper lih = new AnimalRescueHelper();
 
     private static void addAnItem() {
-        System.out.print("Enter an animal name: ");
+        System.out.print("Enter a name for your animal: ");
         String animalName = in.nextLine();
         System.out.print("Enter an animal type: ");
         String animalType = in.nextLine();
@@ -22,7 +22,7 @@ public class StartProgram {
     }
 
     private static void deleteAnItem() {
-        System.out.print("Enter the animal name to delete: ");
+        System.out.print("Enter the animal's name to delete: ");
         String animalName = in.nextLine();
         System.out.print("Enter the animal type to delete: ");
         String animalType = in.nextLine();
@@ -33,13 +33,13 @@ public class StartProgram {
 
     private static void editAnItem() {
         System.out.println("How would you like to search? ");
-        System.out.println("1 : Search by Animal Name");
+        System.out.println("1 : Search by Animal's Name");
         System.out.println("2 : Search by Animal Type");
         int searchBy = in.nextInt();
         in.nextLine();
         List<AnimalRescue> foundItems;
         if (searchBy == 1) {
-            System.out.print("Enter the animal name: ");
+            System.out.print("Enter the animal's name: ");
             String animalName = in.nextLine();
             foundItems = lih.searchForItemByAnimalName(animalName);
         } else {
